@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { Component } from "react";
 import "./Detail.scss";
 import { connect } from "react-redux";
@@ -49,9 +50,13 @@ class Detail extends Component {
           </p>
           <div className="detail_button">
             <div className="detail_button_visit">
-              <button className="btn btn-primary">
+              <a
+                href={getItem.demo}
+                target={"_blank"}
+                className="btn btn-primary"
+              >
                 <span className="text-uppercase">Visit the Webiste</span>
-              </button>
+              </a>
             </div>
             <div className="detail_button_social">
               <button className="btn btn_facebook">
@@ -86,7 +91,10 @@ class Detail extends Component {
           <div className="detail_source">
             <h1>Resources</h1>
             <p className="lead">
-              Github <a href={getItem.source}>github.com</a>
+              Github
+              <a href={getItem.source} target={"_blank"}>
+                github.com
+              </a>
             </p>
           </div>
         </div>

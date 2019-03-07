@@ -24,7 +24,17 @@ class Porfolio extends Component {
 
   render() {
     const { porfolio, search } = this.props;
-    const buttons = ["ALL", "Redux", "React", "JavaScript ES6", "HTML5"];
+    const buttons = [
+      "ALL",
+      "Redux",
+      "React",
+      "JavaScript ES6",
+      "HTML5",
+      "RESTful API",
+      "Animation",
+      "SCSS",
+      "Responsive"
+    ];
 
     const listButton = buttons.map((item, i) => (
       <Button
