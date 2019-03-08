@@ -8,17 +8,19 @@ class Home extends Component {
       <>
         <header className="">
           <div className="header">
-            {/* <video
+            <video
               playsinline="playsinline"
               autoplay="autoplay"
               muted="muted"
               loop="loop"
+              className="d-md-block d-none"
             >
               <source
                 src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4"
                 type="video/mp4"
               />
-            </video> */}
+            </video>
+            <div className="a1 d-block d-md-none" />
             <div className="header__overlay" />
             <div class="header__list">
               <div class="w-100 text-white header__content">
