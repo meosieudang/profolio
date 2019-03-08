@@ -20,8 +20,8 @@ class Home extends Component {
                 type="video/mp4"
               />
             </video>
-            <div className="a1 d-block d-md-none" />
             <div className="header__overlay" />
+            <div className="a1 d-block d-md-none" />
             <div class="header__list">
               <div class="w-100 text-white header__content">
                 <h1 class="display-3 ">Front End Developer</h1>
