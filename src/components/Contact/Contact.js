@@ -80,7 +80,7 @@ class Contact extends Component {
             <p className="lead">
               If you wanna get in touch, talk to me about a project
               collaboration or just say hi, fill up the awesome form below or
-              send an email to rafael@caferati.me and ~let's talk.
+              send an email to meosieudang@gmail.com and ~let's talk.
             </p>
           </div>
           <form

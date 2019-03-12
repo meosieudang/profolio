@@ -32,7 +32,13 @@ class Home extends Component {
                   </Button>
                 </Link>
                 <Button variant="contained" className="bg-danger">
-                  Download CV
+                  <a
+                    className="text-white text-center"
+                    href="https://www.docdroid.net/DYal0DK/hoangnhatthuanresume-1.pdf"
+                    target={"_blank"}
+                  >
+                    Download CV
+                  </a>
                 </Button>
               </div>
             </div>

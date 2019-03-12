@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import anh from "./img/meoden.jpg";
+import meoden from "./img/meoden.jpg";
 import "./Sidenav.scss";
 import { NavLink } from "react-router-dom";
 class Sidenav extends Component {
@@ -9,7 +9,7 @@ class Sidenav extends Component {
         <div class="card">
           <img
             class="card-img-top rounded-circle img-fuild"
-            src={anh}
+            src={meoden}
             alt="meoden"
           />
           <div class="card-body text-center">
